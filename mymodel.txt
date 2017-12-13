@@ -1,0 +1,824 @@
+camera cam1
+{
+  pixeldim  800 600
+  worlddim  8 6
+  viewpoint 4 3 4
+}
+
+material blue
+{
+   diffuse 0 0 0
+   ambient 3 3 11.4
+   specular 3
+}
+
+material white
+{
+   diffuse 0 0 0
+   ambient 100 100 100
+   specular 1
+}
+
+material yellow
+{
+   diffuse 2 2 2
+   ambient  4  3 0
+   specular 1
+}
+material black
+{
+   diffuse 0 0 0
+   ambient  0  0 0
+   specular 1
+}
+
+material black2
+{
+   diffuse 0 0 0
+   ambient  0  0 0
+}
+
+material purple
+{
+   diffuse 2 2 2
+   ambient  4 0 4
+   specular 1
+}
+
+material red
+{
+   diffuse  0 0 0
+   ambient  10 0 0
+   specular 1
+}
+
+light light1
+{
+   emissivity 0 0 1
+   location 7 3 -4
+}
+
+fplane   board
+{
+   material purple
+   normal   6.93 0 4
+   point    0 0 0
+   xdir     1 0 0
+   dimensions 8 6
+}
+
+fplane   board2
+{
+   material red
+   normal  -6.93  0 4
+   point    4 0 -6.93
+   xdir     1 0 0
+   dimensions 8 6
+}
+
+plane   ceiling
+{
+   material black
+   normal 0 -1 0
+   point 0 6 0
+}
+
+spotlight green
+{
+   location 4 3 4
+   emissivity 0 0 0
+   theta  15
+   point 4 3 -5
+}
+
+triangle point
+{
+  material blue
+  normal 0 0 1
+  point  0 0 0
+  vertex1 4 5 -2
+  vertex2 5 6  -2.5
+  vertex3 3 6 -2.5
+}
+
+sphere Sun
+{
+   material yellow
+   center  4 3 -2.75
+   radius 2
+}
+
+tiled_plane floor
+{
+   material black2
+   point    0 -1 0
+   normal   0 1 0
+   dimensions 1 1
+   xdir       1 0 1
+   altmaterial yellow
+}
+
+sphere seg-your-fault.115
+{
+	material black
+	center 4.32534301281 3.15070579946 -.5
+	radius 0.028482530266
+}
+sphere seg-your-fault.027
+{
+	material black
+	center 4.1382972002 3.15070579946 -.5
+	radius 0.028482530266
+}
+
+sphere seg-your-fault.115
+{
+       material black
+       center 4.32534301281 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.027
+{
+       material black
+       center 4.1382972002 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.114
+{
+       material black
+       center 5.18040037155 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.113
+{
+       material black
+       center 5.13034772873 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.112
+{
+       material black
+       center 4.98018848896 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.111
+{
+       material black
+       center 5.03024125099 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.110
+{
+       material black
+       center 5.08029484749 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.109
+{
+       material black
+       center 5.08029484749 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.108
+{
+       material black
+       center 5.08029484749 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.107
+{
+       material black
+       center 5.08029484749 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.106
+{
+       material black
+       center 5.08029484749 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.105
+{
+       material black
+       center 5.08029484749 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.104
+{
+       material black
+       center 5.08029484749 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.103
+{
+       material black
+       center 4.94274616241 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.102
+{
+       material black
+       center 4.89269328117 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.101
+{
+       material black
+       center 4.84264051914 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.100
+{
+       material black
+       center 4.79258704185 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.099
+{
+       material black
+       center 4.79258704185 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.098
+{
+       material black
+       center 4.79258704185 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.097
+{
+       material black
+       center 4.80622911453 3.0631927251816 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.096
+{
+       material black
+       center 4.79258704185 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.095
+{
+       material black
+       center 4.79258704185 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.094
+{
+       material black
+       center 4.79258704185 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.093
+{
+       material black
+       center 4.6424279213 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.092
+{
+       material black
+       center 4.6424279213 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.091
+{
+       material black
+       center 4.6424279213 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.090
+{
+       material black
+       center 4.63193416595 3.0600444599986 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.089
+{
+       material black
+       center 4.6424279213 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.088
+{
+       material black
+       center 4.6424279213 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.087
+{
+       material black
+       center 4.6424279213 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.086
+{
+       material black
+       center 4.59237504005 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.085
+{
+       material black
+       center 4.54232227802 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.084
+{
+       material black
+       center 4.49226939678 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.083
+{
+       material black
+       center 4.44221591949 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.082
+{
+       material black
+       center 4.44221591949 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.081
+{
+       material black
+       center 4.44221591949 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.080
+{
+       material black
+       center 4.45585799217 3.0642421022058 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.079
+{
+       material black
+       center 4.44221591949 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.078
+{
+       material black
+       center 4.44221591949 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.077
+{
+       material black
+       center 4.44221591949 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.076
+{
+       material black
+       center 4.14897358418 3.199544176459 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.075
+{
+       material black
+       center 4.3097114563 3.201973393559 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.074
+{
+       material black
+       center 4.26816058159 3.306330412626 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.073
+{
+       material black
+       center 4.20145571232 3.303294032812 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.072
+{
+       material black
+       center 4.13257658482 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.071
+{
+       material black
+       center 4.33278858662 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.070
+{
+       material black
+       center 4.28637933731 3.253241032362 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.069
+{
+       material black
+       center 4.17473471165 3.251419126987 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.068
+{
+       material black
+       center 4.18614387512 3.160320430994 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.067
+{
+       material black
+       center 4.28009986877 3.159814402461 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.066
+{
+       material black
+       center 4.23268294334 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.065
+{
+       material black
+       center 4.33278858662 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.064
+{
+       material black
+       center 4.23268294334 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.063
+{
+       material black
+       center 4.13257658482 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.062
+{
+       material black
+       center 3.944975435734 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.060
+{
+       material black
+       center 3.99502825737 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.059
+{
+       material black
+       center 3.99502825737 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.058
+{
+       material black
+       center 4.04508173466 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.057
+{
+       material black
+       center 3.944975435734 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.056
+{
+       material black
+       center 3.909498035908 3.334155768156 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.055
+{
+       material black
+       center 3.89492225647 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.054
+{
+       material black
+       center 3.89492225647 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.053
+{
+       material black
+       center 3.89492225647 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.052
+{
+       material black
+       center 3.89492225647 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.051
+{
+       material black
+       center 3.89492225647 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.050
+{
+       material black
+       center 3.89492225647 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.049
+{
+       material black
+       center 3.728991925716 3.186211660504 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.048
+{
+       material black
+       center 3.683778464794 3.186911895871 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.047
+{
+       material black
+       center 3.757152378559 3.152163311839 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.046
+{
+       material black
+       center 3.758610069752 3.10575427115 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.045
+{
+       material black
+       center 3.738932967186 3.341443747282 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.044
+{
+       material black
+       center 3.694710314274 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.043
+{
+       material black
+       center 3.644657194614 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.042
+{
+       material black
+       center 3.654860138893 3.0425831191242 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.041
+{
+       material black
+       center 3.701998054981 3.044769462198 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.040
+{
+       material black
+       center 3.745432972908 3.061269633472 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.039
+{
+       material black
+       center 3.59460401535 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.038
+{
+       material black
+       center 3.59460401535 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.037
+{
+       material black
+       center 3.59460401535 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.036
+{
+       material black
+       center 3.608248054981 3.0621445477009 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.035
+{
+       material black
+       center 3.59460401535 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.034
+{
+       material black
+       center 3.59460401535 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.033
+{
+       material black
+       center 3.606323599815 3.33870318532 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.032
+{
+       material black
+       center 3.469510614872 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.031
+{
+       material black
+       center 3.419457644224 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.030
+{
+       material black
+       center 3.369404643774 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.029
+{
+       material black
+       center 3.369404643774 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.028
+{
+       material black
+       center 3.419457644224 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.026
+{
+       material black
+       center 3.469510614872 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.025
+{
+       material black
+       center 3.419457644224 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.024
+{
+       material black
+       center 3.319351673126 3.15070579946 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.023
+{
+       material black
+       center 3.319351673126 3.100652776659 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.022
+{
+       material black
+       center 3.329846888781 3.0600454807281 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.021
+{
+       material black
+       center 3.369404643774 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.020
+{
+       material black
+       center 3.319351673126 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.019
+{
+       material black
+       center 3.319351673126 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.018
+{
+       material black
+       center 3.319351673126 3.300864815712 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.017
+{
+       material black
+       center 3.330896377563 3.33727401495 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.016
+{
+       material black
+       center 3.0514457114041 3.0642435923219 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.015
+{
+       material black
+       center 3.0941520556808 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.014
+{
+       material black
+       center 3.0941520556808 3.0505997501314 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.013
+{
+       material black
+       center 3.13983219862 3.0498709343374 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.012
+{
+       material black
+       center 3.179802939296 3.0626254454255 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.011
+{
+       material black
+       center 3.195715740323 3.102839179337 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.010
+{
+       material black
+       center 3.196444511414 3.14851936698 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.009
+{
+       material black
+       center 3.178831279278 3.185574814677 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.008
+{
+       material black
+       center 3.144205078483 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.007
+{
+       material black
+       center 3.0961765125394 3.200758829713 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.006
+{
+       material black
+       center 3.0560436695814 3.212197348475 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.005
+{
+       material black
+       center 3.0440990366042 3.250811815262 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.004
+{
+       material black
+       center 3.0389973893762 3.293576836586 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.003
+{
+       material black
+       center 3.0526021420956 3.333911627531 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.002
+{
+       material black
+       center 3.0941520556808 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault.001
+{
+       material black
+       center 3.144205078483 3.350917875767 -.5
+       radius 0.028482530266
+}
+sphere seg-your-fault
+{
+       material black
+       center 3.194258108735 3.334125488997 -.5
+       radius 0.028482530266
+}
+

@@ -1,0 +1,47 @@
+
+Colin Fitt -- cfitt -- C6312039
+Course CpSci 1020, Prof. Catherine Hochrine
+Major Programming Assignment #3: Due 11:59pm Sunday, April 20th
+
+
+
+Required  features:							Points:
+	(1)  Ambient  lighting  with  planes  &  spheres  	50  
+	(2)  Diffuse  lighting  with  shadows  			20  
+Optional  features:
+	(3)  Triangle  						5
+	(4)  Procedural  plane  with  additional  shader  	5
+	(5)  Tiled  infinite  plane  of  arbitrary  orientation 5
+	(6)  Finite  Plane  					5
+	(7)  Spotlights  					5
+	(8)  Specular  reflection  				5
+	(9)  Specular  glints  					5
+	(10)  Transparency  					5
+	(11)  Anti-­‐aliasing  					5
+	(12)  Textured  planes  				5
+	(13)  mymodel.txt  					10
+
+Total  Possible  no  more  than 110
+
+
+What I have working, and produce correct test files:
+	(1)  Ambient  lighting  with  planes  &  spheres  	50  
+	(2)  Diffuse  lighting  with  shadows  			20 
+	(3)  Triangle  					       {5
+		in plane_t type... not one discribed in notes
+	(6)  Finite  Plane  					5
+	(11) Anti-­‐aliasing  					5
+	(5)  Tiled  infinite  plane  				5
+		buggy at times, but works for all tests.
+	(7)  Spotlights  					5
+	(8)  Specular  reflection  				5} = (+30)
+	(13)  mymodel.txt  					10
+							total:  110
+
+Working on and may submit like 20 minutes before deadline on monday:
+
+	(9)  Specular  glints  					5
+	(4)  Procedural  plane  with  additional  shader  	5
+	(10)  Transparency  					5
+	(12)  Textured  planes  				5
+

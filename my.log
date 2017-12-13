@@ -1,0 +1,473 @@
+xdir:1.000000 0.000000 0.000000
+projxdir: 0.249903 0.000000 -0.432957
+xdir:1.000000 0.000000 0.000000
+projxdir: 0.249903 0.000000 0.432957
+camera cam1        
+pixeldim 800 600
+world_dim 8.000 6.0
+viewpoint 4.000 3.0 4.0
+
+material     blue 
+ambient        3.0   3.0  11.4 
+diffuse        0.0   0.0   0.0 
+specular       3.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     white 
+ambient      100.0 100.0 100.0 
+diffuse        0.0   0.0   0.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     yellow 
+ambient        4.0   3.0   0.0 
+diffuse        2.0   2.0   2.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     black 
+ambient        0.0   0.0   0.0 
+diffuse        0.0   0.0   0.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     black2 
+ambient        0.0   0.0   0.0 
+diffuse        0.0   0.0   0.0 
+specular       0.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     purple 
+ambient        4.0   0.0   4.0 
+diffuse        2.0   2.0   2.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     red 
+ambient       10.0   0.0   0.0 
+diffuse        0.0   0.0   0.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+fplane       board 
+material     purple 
+normal         0.9   0.0   0.5 
+point          0.0   0.0   0.0 
+
+xdir           1.0   0.0   0.0
+projxdir       0.5   0.0  -0.9
+dimensions     8.0   6.0
+rot            0.5   0.0  -0.9
+rot           -0.0   1.0   0.0
+rot            0.9   0.0   0.5
+fplane       board2 
+material     red 
+normal        -0.9   0.0   0.5 
+point          4.0   0.0  -6.9 
+
+xdir           1.0   0.0   0.0
+projxdir       0.5   0.0   0.9
+dimensions     8.0   6.0
+rot            0.5   0.0   0.9
+rot            0.0   1.0  -0.0
+rot           -0.9   0.0   0.5
+plane        ceiling 
+material     black 
+normal         0.0  -1.0   0.0 
+point          0.0   6.0   0.0 
+
+triangle     point 
+material     blue 
+normal         0.0   0.4   0.9 
+point1         4.0   5.0  -2.0 
+point2         5.0   6.0  -2.5 
+point3         3.0   6.0  -2.5 
+
+center         4.0   3.0  -2.8 
+radius         2.0 
+
+tiled_plane  floor 
+material     black2 
+normal         0.0   1.0   0.0
+xdir           0.7   0.0   0.7
+dimensions     1.0   1.0
+altmaterial  yellow
+
+center         4.3   3.2  -0.5 
+radius         0.0 
+
+center         4.1   3.2  -0.5 
+radius         0.0 
+
+center         4.3   3.2  -0.5 
+radius         0.0 
+
+center         4.1   3.2  -0.5 
+radius         0.0 
+
+center         5.2   3.4  -0.5 
+radius         0.0 
+
+center         5.1   3.4  -0.5 
+radius         0.0 
+
+center         5.0   3.4  -0.5 
+radius         0.0 
+
+center         5.0   3.4  -0.5 
+radius         0.0 
+
+center         5.1   3.4  -0.5 
+radius         0.0 
+
+center         5.1   3.2  -0.5 
+radius         0.0 
+
+center         5.1   3.1  -0.5 
+radius         0.0 
+
+center         5.1   3.1  -0.5 
+radius         0.0 
+
+center         5.1   3.2  -0.5 
+radius         0.0 
+
+center         5.1   3.3  -0.5 
+radius         0.0 
+
+center         5.1   3.3  -0.5 
+radius         0.0 
+
+center         4.9   3.1  -0.5 
+radius         0.0 
+
+center         4.9   3.1  -0.5 
+radius         0.0 
+
+center         4.8   3.1  -0.5 
+radius         0.0 
+
+center         4.8   3.3  -0.5 
+radius         0.0 
+
+center         4.8   3.3  -0.5 
+radius         0.0 
+
+center         4.8   3.2  -0.5 
+radius         0.0 
+
+center         4.8   3.1  -0.5 
+radius         0.0 
+
+center         4.8   3.1  -0.5 
+radius         0.0 
+
+center         4.8   3.2  -0.5 
+radius         0.0 
+
+center         4.8   3.4  -0.5 
+radius         0.0 
+
+center         4.6   3.4  -0.5 
+radius         0.0 
+
+center         4.6   3.2  -0.5 
+radius         0.0 
+
+center         4.6   3.1  -0.5 
+radius         0.0 
+
+center         4.6   3.1  -0.5 
+radius         0.0 
+
+center         4.6   3.2  -0.5 
+radius         0.0 
+
+center         4.6   3.3  -0.5 
+radius         0.0 
+
+center         4.6   3.3  -0.5 
+radius         0.0 
+
+center         4.6   3.1  -0.5 
+radius         0.0 
+
+center         4.5   3.1  -0.5 
+radius         0.0 
+
+center         4.5   3.1  -0.5 
+radius         0.0 
+
+center         4.4   3.3  -0.5 
+radius         0.0 
+
+center         4.4   3.3  -0.5 
+radius         0.0 
+
+center         4.4   3.2  -0.5 
+radius         0.0 
+
+center         4.5   3.1  -0.5 
+radius         0.0 
+
+center         4.4   3.1  -0.5 
+radius         0.0 
+
+center         4.4   3.2  -0.5 
+radius         0.0 
+
+center         4.4   3.4  -0.5 
+radius         0.0 
+
+center         4.1   3.2  -0.5 
+radius         0.0 
+
+center         4.3   3.2  -0.5 
+radius         0.0 
+
+center         4.3   3.3  -0.5 
+radius         0.0 
+
+center         4.2   3.3  -0.5 
+radius         0.0 
+
+center         4.1   3.1  -0.5 
+radius         0.0 
+
+center         4.3   3.1  -0.5 
+radius         0.0 
+
+center         4.3   3.3  -0.5 
+radius         0.0 
+
+center         4.2   3.3  -0.5 
+radius         0.0 
+
+center         4.2   3.2  -0.5 
+radius         0.0 
+
+center         4.3   3.2  -0.5 
+radius         0.0 
+
+center         4.2   3.2  -0.5 
+radius         0.0 
+
+center         4.3   3.1  -0.5 
+radius         0.0 
+
+center         4.2   3.4  -0.5 
+radius         0.0 
+
+center         4.1   3.1  -0.5 
+radius         0.0 
+
+center         3.9   3.2  -0.5 
+radius         0.0 
+
+center         4.0   3.2  -0.5 
+radius         0.0 
+
+center         4.0   3.4  -0.5 
+radius         0.0 
+
+center         4.0   3.4  -0.5 
+radius         0.0 
+
+center         3.9   3.4  -0.5 
+radius         0.0 
+
+center         3.9   3.3  -0.5 
+radius         0.0 
+
+center         3.9   3.2  -0.5 
+radius         0.0 
+
+center         3.9   3.1  -0.5 
+radius         0.0 
+
+center         3.9   3.1  -0.5 
+radius         0.0 
+
+center         3.9   3.2  -0.5 
+radius         0.0 
+
+center         3.9   3.3  -0.5 
+radius         0.0 
+
+center         3.9   3.3  -0.5 
+radius         0.0 
+
+center         3.7   3.2  -0.5 
+radius         0.0 
+
+center         3.7   3.2  -0.5 
+radius         0.0 
+
+center         3.8   3.2  -0.5 
+radius         0.0 
+
+center         3.8   3.1  -0.5 
+radius         0.0 
+
+center         3.7   3.3  -0.5 
+radius         0.0 
+
+center         3.7   3.4  -0.5 
+radius         0.0 
+
+center         3.6   3.4  -0.5 
+radius         0.0 
+
+center         3.7   3.0  -0.5 
+radius         0.0 
+
+center         3.7   3.0  -0.5 
+radius         0.0 
+
+center         3.7   3.1  -0.5 
+radius         0.0 
+
+center         3.6   3.3  -0.5 
+radius         0.0 
+
+center         3.6   3.3  -0.5 
+radius         0.0 
+
+center         3.6   3.2  -0.5 
+radius         0.0 
+
+center         3.6   3.1  -0.5 
+radius         0.0 
+
+center         3.6   3.1  -0.5 
+radius         0.0 
+
+center         3.6   3.2  -0.5 
+radius         0.0 
+
+center         3.6   3.3  -0.5 
+radius         0.0 
+
+center         3.5   3.4  -0.5 
+radius         0.0 
+
+center         3.4   3.4  -0.5 
+radius         0.0 
+
+center         3.4   3.4  -0.5 
+radius         0.0 
+
+center         3.4   3.2  -0.5 
+radius         0.0 
+
+center         3.4   3.2  -0.5 
+radius         0.0 
+
+center         3.5   3.1  -0.5 
+radius         0.0 
+
+center         3.4   3.1  -0.5 
+radius         0.0 
+
+center         3.3   3.2  -0.5 
+radius         0.0 
+
+center         3.3   3.1  -0.5 
+radius         0.0 
+
+center         3.3   3.1  -0.5 
+radius         0.0 
+
+center         3.4   3.1  -0.5 
+radius         0.0 
+
+center         3.3   3.2  -0.5 
+radius         0.0 
+
+center         3.3   3.3  -0.5 
+radius         0.0 
+
+center         3.3   3.3  -0.5 
+radius         0.0 
+
+center         3.3   3.3  -0.5 
+radius         0.0 
+
+center         3.1   3.1  -0.5 
+radius         0.0 
+
+center         3.1   3.1  -0.5 
+radius         0.0 
+
+center         3.1   3.1  -0.5 
+radius         0.0 
+
+center         3.1   3.0  -0.5 
+radius         0.0 
+
+center         3.2   3.1  -0.5 
+radius         0.0 
+
+center         3.2   3.1  -0.5 
+radius         0.0 
+
+center         3.2   3.1  -0.5 
+radius         0.0 
+
+center         3.2   3.2  -0.5 
+radius         0.0 
+
+center         3.1   3.2  -0.5 
+radius         0.0 
+
+center         3.1   3.2  -0.5 
+radius         0.0 
+
+center         3.1   3.2  -0.5 
+radius         0.0 
+
+center         3.0   3.3  -0.5 
+radius         0.0 
+
+center         3.0   3.3  -0.5 
+radius         0.0 
+
+center         3.1   3.3  -0.5 
+radius         0.0 
+
+center         3.1   3.4  -0.5 
+radius         0.0 
+
+center         3.1   3.4  -0.5 
+radius         0.0 
+
+center         3.2   3.3  -0.5 
+radius         0.0 
+
